@@ -1,4 +1,4 @@
 # verymanley.github.io
-verymanley.com v1.0
+verymanley.com v2.0
 
 Created by Joshua Manley
