@@ -53,18 +53,46 @@ body
 	transition: .8s ease;
 }
 
-.parallax {
+.parallax_a {
     /* The image used */
-    background-image: url("https://foxbytellc.github.io/background03.jpg");
+    background-image: url("https://foxbytellc.github.io/background02.jpg");
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 200px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax_b {
+    /* The image used */
+    background-image: url("https://foxbytellc.github.io/background03.jpg");
+
+    /* Set a specific height */
+    min-height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div_a
+{
+  height: 100px;
+  background-color: #282b2d;
+
+}
+
+.div_b
+{
+  height: 400px;
+  background-color: #282b2d;
+
 }
 
 /*---------nav begin------------*/
