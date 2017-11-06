@@ -9,182 +9,124 @@ border: 0px;
 
 body
 {
-  font-family:Verdana, Geneva, sans-serif;
-  font-size:10px;
-  background-color:#282b2d;
-  color:#ffffff;
-  text-decoration:none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	background-color: #282b2d;
+	color: #ffffff;
+	text-decoration: none;
+  background-image: url("https://foxbytellc.github.io/background03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-#globalcontainer
+#global_container
 {
-  position:absolute;
-  height:100%;
-  width:200px;
-  left:50%;
-  margin-left:-300px;
-  border-right:1px solid #266fd2;
-  border-left:1px solid #266fd2;
+	position: absolute;
+	height: 2630px;
+	width: 800px;
+	left: 50%;
+  margin-top: 50px;
+	margin-left: -400px;
 }
 
-#mailto
+#foot_tab
 {
-  color:#ffffff;
-  text-decoration:none;
-  border-bottom:1px dashed #232729;
+  bottom: 0;
+  position: fixed;
+  overflow: hidden;
+  z-index: -2;
+	width: 100%;
+	border-top: 1px solid #266fd2;
+  height: 16px;
+  margin-top: 20px;
+  padding: 4px;
+  background-color: #282b2d;
+  opacity: .8;
+  text-align: center;
+	transition: .8s ease;
 }
 
-#mailto:hover
+#foot_tab:hover
 {
-  background-color:#266fd2;
-  color:black;
+	background: #232729;
+	transition: .8s ease;
 }
-
-/*---------right begin------------*/
-#top
-{
-  width:200px;
-}
-/*---------right end------------*/
-
-/*---------intro begin------------*/
-#intro
-{
-  padding:5px;
-  border-bottom:1px solid #266fd2;
-}
-
-#intro:hover
-{
-  background:#232729;
-}
-/*---------intro end------------*/
 
 /*---------nav begin------------*/
-#linkhead
+
+#nav_list
 {
-  position:absolute;
-  right:20px;
-  z-index:-1;
-  padding:2px;
-  border-right:1px solid #266fd2;
-  border-bottom:1px solid #266fd2;
-  border-left:1px solid #266fd2;
-  color:#ffffff;
-  background:#232729;
 }
 
-#navlist
+#nav_container
 {
-  margin-top:4px;
+  top: 0;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+	width: 100%;
+	border-bottom: 1px solid #266fd2;
+  height: 32px;
+  background-color: #282b2d;
+  opacity: .9;
+  text-align: center;
+	box-shadow: 0px 2px 4px #000000;
+	transition: .8s ease;
 }
 
-#navcontainer
+#nav_container:hover
 {
-  position:relative;
-  float:left;
-  padding-bottom:4px;
-  width: 200px;
-  border-bottom:1px solid #266fd2;
-}
-
-#navcontainer:hover
-{
-  background:#232729;
+	background: #232729;
+	opacity: 1;
+	transition: .8s ease;
 }
 
 #navcontainer ul
 {
-  margin-left: 0;
-  padding-left: 0;
-  list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+  text-align: center;
 }
 
-#navcontainer a
+#nav_container li
 {
-  display: block;
-  margin-top:1px;
-  margin-bottom:1px;
-  padding-left:5px;
-  width: auto;
+  display: inline;
+	font-size: 10px;
+	font: bold;
 }
 
-#navcontainer a:link,
-#navlist a:visited
+#nav_container a
 {
-  color: #ffffff;
-  text-decoration: none;
+  display: inline-block;
+	height: 32px;
+	margin-left: -2px;
+	margin-right: -2px;
+  padding-top : 6px;
+  padding-bottom : 4px;
+  padding-right: 10px;
+	padding-left: 10px;
+	width: auto;
+	transition: .8s ease;
 }
 
-#navcontainer a:hover
+#nav_container a:link,
+#nav_list a:visited
 {
-  border-left:#232729 20px solid;
-  color:#000000;
-  background:#266fd2 url(../shop/navgif1.gif);
-  background-position:right;
-  background-repeat:no-repeat
+	color: #ffffff;
+	text-decoration: none;
 }
+
+#nav_container a:hover
+{
+	color: #282b2d;
+  background: #266fd2;
+  padding-bottom : 3px;
+	transition: .2s ease;
+	font-size: 11px;
+}
+
 /*---------nav end------------*/
 
-/*---------twiter begin------------*/
-#twitter
-{
-  width:200px;
-  position:fixed;
-  bottom:0;
-  border-top:1px solid #266fd2;
-}
-
-#followme
-{
-  padding:5px 0 5px 5px;
-}
-
-#followme:hover
-{
-  background:#232729;
-}
-
-#followme a
-{
-  color:#ffffff;
-  text-decoration:none;
-  border-bottom:1px dashed #232729;
-}
-
-#followme a:hover
-{
-  background-color:#266fd2;
-  color:black;
-}
-
-ul#twitter_update_list
-{
-  list-style:none;
-}  
-
-ul#twitter_update_list li
-{
-  padding:5px;
-  border-top:1px dashed #266fd2;
-}
-
-ul#twitter_update_list li:hover
-{
-  background:#232729;
-}
-
-ul#twitter_update_list li a
-{
-  word-break:break-all;
-  text-decoration:none;
-  color:white;
-  border-bottom:1px dashed #232729;
-}
-
-ul#twitter_update_list li a:hover
-{
-  background-color:#266fd2;
-  color:black;
-}
-/*---------twiter end------------*/
+/*---------written by verymanley------------*/
