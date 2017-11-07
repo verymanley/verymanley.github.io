@@ -182,6 +182,7 @@ body, html
   font-size: 80px;
   background-color: #282b2d;
   transition: .2s ease;
+  border-left: 4px solid #266fd2;
 }
 
 #intro_txt_b
@@ -190,6 +191,7 @@ body, html
   width: 340px;
   background-color: #282b2d;
   transition: .2s ease;
+  border-left: 4px solid #266fd2;
 }
 
 #intro_txt_c
@@ -198,6 +200,7 @@ body, html
   width: 120px;
   background-color: #282b2d;
   transition: .2s ease;
+  border-left: 4px solid #266fd2;
 }
 
 #intro_txt_a:hover, #intro_txt_b:hover, #intro_txt_c:hover
@@ -206,6 +209,7 @@ body, html
   background: #266fd2;
   padding-left : 20px;
 	transition: .2s ease;
+  border-left: 4px solid #282b2d;
 }
 
 /*---------intro end------------*/
@@ -275,7 +279,6 @@ body, html
 	transition: .5s ease;
 	backface-visibility: hidden;
 	border-bottom: 1px solid #266fd2;
-
 }
 
 #works_content:hover #solutions_txt
