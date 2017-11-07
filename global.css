@@ -53,6 +53,7 @@ body, html
     background-size: cover;
     box-shadow: 0px 2px 20px #000000;
     border-top: 1px solid #266fd2;
+    background-color: #282b2d;
 }
 
 .parallax_design
@@ -167,7 +168,7 @@ body, html
   top: 0;
   position: fixed;
   overflow: hidden;
-  z-index: 1;
+  z-index: 4;
 	width: 100%;
 	border-bottom: 1px solid #266fd2;
   height: 32px;
@@ -230,6 +231,69 @@ body, html
 }
 
 /*---------nav end------------*/
+
+/*---------works begin------------*/
+
+#works_container
+{
+  position: absolute;
+  overflow: hidden;
+	width: 800px;
+  height: 300px;
+  background-color: #282b2d;
+  opacity: .9;
+  text-align: left;
+	box-shadow: 0px 2px 4px #000000;
+	transition: .8s ease;
+  border: 1px solid #266fd2;
+  font-size: 12px;
+  font: bold;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: 40px;
+}
+
+#works_content
+{
+  position: relative;
+  float: left;
+	height: 162px;
+	width: 164px;
+  margin-top: 46px;
+  margin-bottom: 31px;
+  margin-left: 46px;
+  padding: 20px;
+  background-color: #282b2d;
+  opacity: 2;
+  border-bottom: 1px dashed #266fd2;
+	transition: .5s ease;
+}
+
+#works_content:hover
+{
+	background-color: #232729;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-bottom: 1px solid #266fd2;
+
+}
+
+#works_content:hover #solutions_txt
+{
+	color: #266fd2;
+}
+
+#solutions_txt
+{
+  color: white;
+  font-size: 12px;
+	font-weight: bold;
+  position: relative;
+	text-align: center;
+	transition: .5s ease;
+}
+
+/*---------works end------------*/
 
 /*---------mining begin------------*/
 
