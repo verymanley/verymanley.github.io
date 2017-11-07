@@ -7,53 +7,30 @@ margin: 0px;
 border: 0px;
 }
 
-body
+body, html
 {
+  height: 100%;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 10px;
 	background-color: #282b2d;
 	color: #ffffff;
 	text-decoration: none;
-  background-image: url("https://foxbytellc.github.io/background02.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
-#global_container
+.parallax_a
 {
-	position: absolute;
-	height: 2630px;
-	width: 800px;
-	left: 50%;
-  margin-top: 50px;
-	margin-left: -400px;
+    background-image: url("https://foxbytellc.github.io/background03.jpg");
+    height: 100%;
+    /* the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 2px 20px #000000;
 }
 
-#foot_tab
+.parallax_b
 {
-  bottom: 0;
-  position: fixed;
-  overflow: hidden;
-  z-index: -2;
-	width: 100%;
-	border-top: 1px solid #266fd2;
-  height: 16px;
-  margin-top: 20px;
-  padding: 4px;
-  background-color: #282b2d;
-  opacity: .8;
-  text-align: center;
-	transition: .8s ease;
-}
-
-#foot_tab:hover
-{
-	background: #232729;
-	transition: .8s ease;
-}
-
-.parallax_a {
     background-image: url("https://foxbytellc.github.io/background02.jpg");
     height: 400px;
     /* the parallax scrolling effect */
@@ -62,9 +39,11 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 2px 20px #000000;
+    border-top: 1px solid #266fd2;
 }
 
-.parallax_b {
+.parallax_c
+{
     background-image: url("https://foxbytellc.github.io/background03.jpg");
     height: 400px;
     /* the parallax scrolling effect */
@@ -73,28 +52,71 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 2px 20px #000000;
+    border-top: 1px solid #266fd2;
 }
 
-.div_a
+.parallax_d
 {
-  height: 100px;
-  background-color: #282b2d;
-  box-shadow: 0px 2px 20px #000000;
+    background-image: url("https://foxbytellc.github.io/background02.jpg");
+    height: 400px;
+    /* the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 2px 20px #000000;
+    border-top: 1px solid #266fd2;
 }
 
-.div_b
+.div_works
 {
   height: 200px;
   background-color: #282b2d;
   box-shadow: 0px 2px 20px #000000;
+  border-top: 1px solid #266fd2;
 }
 
-.div_c
+.div_mining
 {
-  height: 300px;
+  height: 200px;
   background-color: #282b2d;
   box-shadow: 0px 2px 20px #000000;
-  margin-bottom: 40px;
+  border-top: 1px solid #266fd2;
+}
+
+.div_design
+{
+  height: 200px;
+  background-color: #282b2d;
+  box-shadow: 0px 2px 20px #000000;
+  border-top: 1px solid #266fd2;
+}
+
+.div_contact
+{
+  height: 400px;
+  background-color: #282b2d;
+  box-shadow: 0px 2px 20px #000000;
+  border-top: 1px solid #266fd2;
+}
+
+#div_head
+{
+  position: absolute;
+  overflow: hidden;
+	width: 800px;
+  height: 100px;
+  background-color: #282b2d;
+  opacity: .9;
+  text-align: left;
+	box-shadow: 0px 2px 4px #000000;
+	transition: .8s ease;
+  border: 1px solid #266fd2;
+  font-size: 12px;
+  font: bold;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: 40px;
 }
 
 /*---------nav begin------------*/
