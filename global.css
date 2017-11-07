@@ -69,7 +69,7 @@ body, html
     border-top: 1px solid #266fd2;
 }
 
-.div_works
+#works
 {
   height: 200px;
   background-color: #282b2d;
@@ -78,7 +78,7 @@ body, html
   transition: .2s ease;
 }
 
-.div_mining
+#mining
 {
   height: 200px;
   background-color: #282b2d;
@@ -87,7 +87,7 @@ body, html
   transition: .2s ease;
 }
 
-.div_design
+#design
 {
   height: 200px;
   background-color: #282b2d;
@@ -96,7 +96,7 @@ body, html
   transition: .2s ease;
 }
 
-.div_contact
+#contact
 {
   height: 400px;
   background-color: #282b2d;
@@ -105,7 +105,7 @@ body, html
   transition: .2s ease;
 }
 
-.div_works:hover, .div_mining:hover, .div_design:hover, .div_contact:hover
+#works:hover, #mining:hover, #design:hover, #contact:hover
 {
   background: #232729;
 }
@@ -399,25 +399,11 @@ body, html
 	text-align: center;
 }
 
-#foxmine_tab_a
+#mining_tab
 {
 	position: absolute;
   top: 0;
-	right: 20px;
-	padding: 2px;
-	border-right: 1px solid #266fd2;
-	border-bottom: 1px solid #266fd2;
-	border-left: 1px solid #266fd2;
-	color: #ffffff;
-	background: #232729;
-  z-index: 2;
-}
-
-#foxmine_tab_b
-{
-	position: absolute;
-  top: 0;
-	right: 20px;
+	left: 20px;
 	padding: 2px;
 	border-right: 1px solid #266fd2;
 	border-bottom: 1px solid #266fd2;
