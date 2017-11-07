@@ -39,6 +39,22 @@ body, html
   transition: .2s ease;
 }
 
+#txt_title
+{
+  font-size: 22px;
+	font-weight: bold;
+  position: relative;
+	text-align: left;
+  margin-bottom: 4px;
+}
+
+#txt_content
+{
+  font-size: 14px;
+  position: relative;
+	text-align: left;
+}
+
 #works:hover, #mining:hover, #design:hover, #contact:hover
 {
   background: #232729;
@@ -284,15 +300,15 @@ body, html
 	border-bottom: 1px solid #266fd2;
 }
 
-#works_content:hover #solutions_txt
+#works_content:hover #works_txt
 {
 	color: #266fd2;
 }
 
-#solutions_txt
+#works_txt
 {
   color: white;
-  font-size: 12px;
+  font-size: 16px;
 	font-weight: bold;
   position: relative;
 	text-align: center;
