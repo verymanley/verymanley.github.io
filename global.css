@@ -549,6 +549,145 @@ body, html
 
 /*---------mining end------------*/
 
+/*---------design begin------------*/
+
+#design_container
+{
+  position: absolute;
+  overflow: hidden;
+	width: 800px;
+  height: 300px;
+  font: bold;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: 80px;
+}
+
+#design_a_container
+{
+  position: relative;
+  float: left;
+  height: auto;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: 40px;
+  color: #266fd2;
+  border-left: 4px solid #266fd2;
+}
+
+#design_a_txt_a
+{
+  width: 300px;
+  font-size: 40px;
+  background-color: #282b2d;
+  transition: .2s ease;
+  border-left: 1px solid #266fd2;
+}
+
+#design_a_txt_b
+{
+  font-size: 20px;
+  width: 170px;
+  background-color: #282b2d;
+  transition: .2s ease;
+  border-left: 1px solid #266fd2;
+}
+
+#design_a_txt_c
+{
+  font-size: 10px;
+  width: 70px;
+  background-color: #282b2d;
+  transition: .2s ease;
+  border-left: 1px solid #266fd2;
+}
+
+#design_a_txt_a:hover, #design_a_txt_b:hover, #design_a_txt_c:hover
+{
+  color: #282b2d;
+  background: #266fd2;
+  padding-left : 10px;
+  margin-right: -10px;
+	transition: .2s ease;
+  border-left: 1px solid #282b2d;
+}
+
+#design_b_container
+{
+  position: relative;
+  float: left;
+  height: auto;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: 60px;
+  color: #f1a91f;
+  border-left: 4px solid #f1a91f;
+}
+
+#design_b_txt_a
+{
+  width: 250px;
+  font-size: 40px;
+  background-color: #282b2d;
+  transition: .2s ease;
+  border-left: 1px solid #f1a91f;
+}
+
+#design_b_txt_b
+{
+  font-size: 20px;
+  width: 106px;
+  background-color: #282b2d;
+  transition: .2s ease;
+  border-left: 1px solid #f1a91f;
+}
+
+#design_b_txt_c
+{
+  font-size: 10px;
+  width: 130px;
+  background-color: #282b2d;
+  transition: .2s ease;
+  border-left: 1px solid #f1a91f;
+}
+
+#design_b_txt_a:hover, #design_b_txt_b:hover, #design_b_txt_c:hover
+{
+  color: #282b2d;
+  background: #f1a91f;
+  padding-left : 10px;
+	transition: .2s ease;
+  border-left: 1px solid #282b2d;
+}
+
+#head_logo
+{
+  position: relative;
+  float: left;
+	height: 40px;
+	width: 40px;
+  padding-top: 60px;
+  margin-left: 60px;
+  opacity: 2;
+  text-align: center;
+	font-size: 16px;
+	transition: all .5s;
+}
+
+#head_logo_img
+{
+  opacity: .8;
+  display: block;
+  width: 100px;
+  height: 100px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/*---------design end------------*/
+
 /*---------contact begin------------*/
 #contact
 {
