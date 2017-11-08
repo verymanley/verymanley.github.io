@@ -17,28 +17,6 @@ body, html
 	text-decoration: none;
 }
 
-.parallax_design
-{
-    background-image: url("https://foxbytellc.github.io/background02.jpg");
-    height: 400px;
-    /* the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 2px 20px #000000;
-    border-top: 1px solid #266fd2;
-}
-
-#design
-{
-  height: 200px;
-  background-color: #282b2d;
-  box-shadow: 0px 2px 20px #000000;
-  border-top: 1px solid #266fd2;
-  transition: .2s ease;
-}
-
 #txt_title
 {
   font-size: 22px;
@@ -71,25 +49,6 @@ body, html
   text-align: left;
   border-bottom: 1px dashed #266fd2;
   font-size: 20px;
-  font: bold;
-  left: 50%;
-  margin-left: -400px;
-  margin-top: 40px;
-}
-
-#div_content
-{
-  position: absolute;
-  overflow: hidden;
-	width: 800px;
-  height: 300px;
-  background-color: #282b2d;
-  opacity: .9;
-  text-align: left;
-	box-shadow: 0px 2px 4px #000000;
-	transition: .8s ease;
-  border: 1px solid #266fd2;
-  font-size: 12px;
   font: bold;
   left: 50%;
   margin-left: -400px;
@@ -550,6 +509,28 @@ body, html
 /*---------mining end------------*/
 
 /*---------design begin------------*/
+
+.parallax_design
+{
+    background-image: url("https://foxbytellc.github.io/background02.jpg");
+    height: 400px;
+    /* the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 2px 20px #000000;
+    border-top: 1px solid #266fd2;
+}
+
+#design
+{
+  height: 200px;
+  background-color: #282b2d;
+  box-shadow: 0px 2px 20px #000000;
+  border-top: 1px solid #266fd2;
+  transition: .2s ease;
+}
 
 #design_container
 {
