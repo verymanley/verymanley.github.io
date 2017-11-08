@@ -535,6 +535,7 @@ body, html
   height: 20px;
   width: 200px;
   margin-top: 22px;
+  padding-left: 10px;
   color: #266fd2;
   border: 1px solid #266fd2;
   background-color: #282b2d;
@@ -549,6 +550,7 @@ body, html
   width: 60px;
   margin-top: 22px;
   margin-left: 10px;
+  padding-right: 2px;
   color: #266fd2;
   border: 1px solid #266fd2;
   background-color: #282b2d;
