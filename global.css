@@ -535,7 +535,10 @@ body, html
   height: 20px;
   width: 200px;
   margin-top: 22px;
+  color: #266fd2;
   border: 1px solid #266fd2;
+  background-color: #282b2d;
+  box-shadow: 0px 2px 6px #000000;
 }
 
 #email_send
@@ -546,7 +549,10 @@ body, html
   width: 60px;
   margin-top: 22px;
   margin-left: 10px;
+  color: #266fd2;
   border: 1px solid #266fd2;
+  background-color: #282b2d;
+  box-shadow: 0px 2px 6px #000000;
 }
 
 #social_linkedin
