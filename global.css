@@ -522,12 +522,30 @@ body, html
 {
   position: relative;
   float: left;
-  height: 47px;
+  height: 66px;
   width: 300px;
-  border-left: 4px solid #266fd2;
   margin-top: 168px;
-  margin-left: 20px;
-  padding-top: 20px;
+  margin-left: 14px;
+}
+
+#email_box
+{
+  position: relative;
+  float: left;
+  height: 20px;
+  width: 200px;
+  margin-top: 22px;
+  border: 1px solid #266fd2;
+}
+
+#email_send
+{
+  position: relative;
+  float: left;
+  height: 22px;
+  width: 60px;
+  margin-top: 22px;
+  margin-left: 10px;
   border: 1px solid #266fd2;
 }
 
