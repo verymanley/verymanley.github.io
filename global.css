@@ -511,11 +511,24 @@ body, html
   position: relative;
   float: left;
   height: 47px;
-  width: 200px;
-  border-left: 4px solid #266fd2;
+  width: 160px;
+  border-right: 4px solid #266fd2;
   margin-top: 168px;
   margin-left: 40px;
   padding-top: 20px;
+}
+
+#email_container
+{
+  position: relative;
+  float: left;
+  height: 47px;
+  width: 300px;
+  border-left: 4px solid #266fd2;
+  margin-top: 168px;
+  margin-left: 20px;
+  padding-top: 20px;
+  border: 1px solid #266fd2;
 }
 
 #social_linkedin
