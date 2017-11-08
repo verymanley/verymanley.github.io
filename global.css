@@ -493,6 +493,8 @@ body, html
 
 #contact_img
 {
+  position: relative;
+  float: left;
   opacity: 8;
   display: block;
   width: 236px;
@@ -502,6 +504,81 @@ body, html
 	border-radius: 8px;
   border: 1px solid #266fd2;
   margin-top: 20px;
+}
+
+#social_container
+{
+  position: relative;
+  float: left;
+  height: 47px;
+  width: 200px;
+  border-left: 4px solid #266fd2;
+  margin-top: 168px;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+#social_linkedin
+{
+  background-image: url("http://foxbytellc.github.io/linkedin.png");
+  background-size: cover;
+  position: relative;
+  float: left;
+	height: 25px;
+	width: 25px;
+  margin-left: 10px;
+	border: 1px solid #266fd2;
+	border-radius: 100%;
+	transition: .5s ease;
+}
+
+#social_twitter
+{
+  background-image: url("http://foxbytellc.github.io/twitter.png");
+  background-size: cover;
+  position: relative;
+  float: left;
+	height: 25px;
+	width: 25px;
+  margin-left: 10px;
+	border: 1px solid #266fd2;
+	border-radius: 100%;
+	transition: .5s ease;
+}
+
+#social_googleplus
+{
+  background-image: url("http://foxbytellc.github.io/googleplus.png");
+  background-size: cover;
+  position: relative;
+  float: left;
+	height: 25px;
+	width: 25px;
+  margin-left: 10px;
+	border: 1px solid #266fd2;
+	border-radius: 100%;
+	transition: .5s ease;
+}
+
+#social_email
+{
+  background-image: url("http://foxbytellc.github.io/email.png");
+  background-size: cover;
+  position: relative;
+  float: left;
+	height: 25px;
+	width: 25px;
+  margin-left: 10px;
+	border: 1px solid #266fd2;
+	border-radius: 100%;
+	transition: .8s ease;
+}
+
+#social_email:hover, #social_googleplus:hover, #social_linkedin:hover, #social_twitter:hover
+{
+	background-color: #266fd2;
+	border-color: #232729;
+	transition: .2s ease;
 }
 
 /*---------contact end------------*/
