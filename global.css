@@ -439,7 +439,7 @@ body, html
   text-align: left;
   left: 50%;
   margin-left: -400px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 #mining_a
@@ -552,14 +552,16 @@ body, html
 
 #coinhive_container
 {
+  overflow: hidden;
   position: absolute;
 	width: 736px;
-  height: 200px;
+  height: 150px;
   left: 50%;
   margin-left: -368px;
-  margin-top: 330px;
+  margin-top: 354px;
   border: 1px solid #266fd2;
   box-shadow: 0px 2px 20px #000000;
+  z-index: 0;
 }
 
 /*---------mining end------------*/
