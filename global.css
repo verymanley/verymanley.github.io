@@ -228,6 +228,11 @@ body, html
   background-color: #266fd2;
 }
 
+#works:hover #txt_content
+{
+  border-bottom: 1px solid #266fd2;
+}
+
 #spacer
 {
   width:: 100%;
@@ -349,6 +354,11 @@ body, html
   background-color: #266fd2;
 }
 
+.content:hover #txt_content
+{
+  border-bottom: 1px solid #266fd2;
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media all and (max-width: 600px) {
   /* Place the timelime to the left */
@@ -413,6 +423,11 @@ body, html
 {
   color: #232729;
   background-color: #266fd2;
+}
+
+#mining:hover #txt_content
+{
+  border-bottom: 1px solid #266fd2;
 }
 
 #mining_container
@@ -567,6 +582,11 @@ body, html
   background-color: #266fd2;
 }
 
+#design:hover #txt_content
+{
+  border-bottom: 1px solid #266fd2;
+}
+
 #design_container
 {
   position: absolute;
@@ -718,6 +738,11 @@ body, html
 {
   color: #232729;
   background-color: #266fd2;
+}
+
+#contact:hover #contact_head
+{
+  border-bottom: 1px solid #266fd2;
 }
 
 #contact_head
