@@ -550,6 +550,19 @@ body, html
   z-index: 2;
 }
 
+#coinhive_container
+{
+  position: absolute;
+  overflow: hidden;
+	width: 600px;
+  height: 300px;
+  text-align: left;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: 60px;
+  border: 1px solid #266fd2;
+}
+
 /*---------mining end------------*/
 
 /*---------design begin------------*/
