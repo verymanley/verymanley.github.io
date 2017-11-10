@@ -458,6 +458,8 @@ body, html
   opacity: 2;
   border: 1px solid #266fd2;
   box-shadow: 0px 2px 20px #000000;
+  border-radius: 8px 0px 0px 0px;
+
 }
 
 #mining_b
@@ -476,6 +478,7 @@ body, html
   opacity: 2;
   border: 1px solid #266fd2;
   box-shadow: 0px 2px 20px #000000;
+  border-radius: 0px 8px 0px 0px;
 }
 
 #mining_img
@@ -496,6 +499,7 @@ body, html
   height: 100%;
   width: 0;
   transition: .5s ease;
+  border-radius: 8px 0px 0px 0px;
 }
 
 #mining_overlay_b
@@ -509,6 +513,7 @@ body, html
   height: 100%;
   width: 0;
   transition: .5s ease;
+  border-radius: 0px 8px 0px 0px;
 }
 
 #mining_a:hover #mining_overlay_a
@@ -559,9 +564,12 @@ body, html
   left: 50%;
   margin-left: -368px;
   margin-top: 354px;
+  padding-top: 20px;
+  background-color: #282b2d;
   border: 1px solid #266fd2;
   box-shadow: 0px 2px 20px #000000;
   z-index: 0;
+  border-radius: 0px 0px 8px 8px;
 }
 
 /*---------mining end------------*/
