@@ -399,7 +399,7 @@ body, html
 .parallax_mining
 {
     background-image: url("https://foxbytellc.github.io/background03.jpg");
-    height: 580px;
+    height: 600px;
     /* the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -781,6 +781,7 @@ body, html
   left: 50%;
   margin-left: -400px;
   margin-top: 40px;
+  padding-left: 24px;
 }
 
 #contact_img
@@ -796,6 +797,7 @@ body, html
 	border-radius: 8px;
   border: 1px solid #266fd2;
   margin-top: 54px;
+  box-shadow: 0px 2px 20px #000000;
 }
 
 #social_container
