@@ -954,6 +954,27 @@ body, html
   background-color: #266fd2;
 }
 
+#arrow
+{
+  border: solid #266fd2;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transition: .4s ease;
+}
+
+#scroll_btn:hover #arrow
+{
+  border: solid #282b2d;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
 /*---------scroll end------------*/
 
 /*--written by verymanley--*/
