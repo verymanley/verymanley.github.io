@@ -2,57 +2,150 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta name="description" content="Interactive, virtual and tangible digital art by Josh Manley." />
-<meta name="keywords" content="Josh Manley,Manley,verymanley" />
-<meta name="author" content="Josh Manley" />
+<meta name="description" content="Interactive, virtual and tangible digital art by Joshua Manley." />
+<meta name="keywords" content="Joshua Manley,Joshua Paul Manley,Manley,verymanley" />
+<meta name="author" content="Joshua Manley" />
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<title>verymanley</title>
+<title>Joshua Manley</title>
 <link href="global.css" rel="stylesheet" type="text/css" />
 <link rel="icon" type="image/png" href="favicon.ico" />
 </head>
 <body>
 
-<div id="globalcontainer">
+<div id="nav_container">
+  <ul id="nav_list">
+    <li id="active"><a href="http://verymanley.com/" id="current"><h2>Manley</h2></a></li>
+    <li><a href="#works"><h2>Works</h2></a></li>
+    <li><a href="#mining"><h2>Mining</h2></a></li>
+    <li><a href="#design"><h2>Design</h2></a></li>
+    <li><a href="#contact"><h2>Contact</h2></a></li>
+  </ul>
+</div>
 
-<!---------top begin------------>
-<div id="top">
-	<div id="intro">Design by: <a id="mailto" href="mailto:verymanley@gmail.com">Joshua Manley</a> <br />Programer, Designer, Hacker <br />Mechanical and Electrical Engineering
+<div class="parallax_intro">
+  <div id="intro_container">
+    <p id="intro_txt_c">Design by:</p>
+    <p id="intro_txt_a">Joshua Manley</p>   
+    <p id="intro_txt_b">verymanley.com</p>
+  </div>
+</div>
+  
+<div id="works">
+  <div id="div_head">
+    <p id="txt_title">Joshua Manley</p>
+    <p id="txt_content">An experienced Programmer and Entrepreneur on the cutting edge of new media and technology.</br>As his passions define his skills, computer programming, ethical hacking, electrical engineering and now the digital economy.</p>
+  </div>
+</div>
+<div class="parallax_works">
+  <div class="timeline">
+  <div id="spacer"></div>
+    <div class="container left">
+      <div class="content">
+        <p id="txt_title">2018</p>
+		<p id="txt_content">Cryptocurrency Mining Farm</p>
+	  </div>
     </div>
-    <div id="navcontainer">
-    	<div id="linkhead">linkage</div>
-    	<ul id="navlist">
-			<li id="active"><a href="http://www.verymanley.com" id="current">index</a></li>
-			<li><a href="http://www.verymanley.com/works.html">works</a></li>
-			<li><a href="http://twitter.com/verymanley">blog</a></li>
-		</ul>
-	</div>
-    <div id="navcontainer">
-    	<div id="linkhead">works</div>
-    	<ul id="navlist">
-			<li><a href="http://www.flickr.com/photos/verymanley/sets/72157617269387819/">Digital Art</a></li>
-			<li><a href="http://http://foxbyte.io/">FoxByte</a></li>
-		</ul>
-	</div>
-    <div id="navcontainer">
-    <div id="linkhead">social</div>
-	  	<ul id="navlist">
-			<li><a href="http://linkedin.com/in/joshua-manley">LinkedIn</a></li>
-			<li><a href="http://twitter.com/verymanley">twitter</a></li>
-			<li><a href="https://github.com/verymanley">github</a></li>
-			<li><a href="https://plus.google.com/u/0/100628448311144760583/about">google+</a></li>
-            <li><a href="http://vimeo.com/verymanley">vimeo</a></li>
-		</ul>
-	</div>
-	<div id="twitter">
-<p id="followme">follow me on twitter <a href="http://twitter.com/verymanley">@verymanley</a></p>
-		<ul id="twitter_update_list"></ul>
-	</div>
-</div>
-<!---------top end------------>
-
-
+    <div class="container right">
+      <div class="content">
+        <p id="txt_title">2014</p>
+		<p id="txt_content">2000 Acuara Integra GSR</p>
+	  </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <p id="txt_title">2008</p>
+		<p id="txt_content">Arduino LED Matrix</p>
+      </div>
+    </div>
+  </div>
 </div>
 
+<div id="mining">
+  <div id="div_head">
+    <p id="txt_title">Cryptocurrency Mining</p>
+    <p id="txt_content">Mining is the process by which transactions are verified and added to the public ledger, known as the block chain. This is also the means through which new coins are created. Anyone with access to the internet and suitable hardware can participate in Proof of Work protocols.</p>
+  </div>
+</div>
+<div class="parallax_mining">
+  <div id="mining_container">
+    <div id="mining_a">
+    <div id="mining_tab">Technologies</div>
+      <div id="mining_overlay_a">
+        <div id="mining_txt">
+          <p>Mining Technologies</br>Algorithm - Ethash, Blake 256</br>GPU - GTX 1070</p>
+        </div>
+      </div>
+    </div>
+    <div id="mining_b">
+      <div id="mining_tab">Statistics</div>
+      <div id="mining_overlay_b">
+        <div id="mining_txt">
+          <p>Mining Statistics</br>Current Hashrate - 190MH/s</br>Active Miners - 1</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+  <div id="coinhive_container">
+    <div id="mining_tab">Web Miner</div>
+    <div class="coinhive-miner"
+      style="width: 736px; height: 200px"
+      data-key="OoyYN86EQP73FGD8fFOKImmy8Kzw25FG"
+      data-autostart="false"
+      data-whitelabel="false"
+      data-background="#282b2d"
+      data-text="#eeeeee"
+      data-action="#266fd2"
+      data-graph="#555555"
+      data-threads="4"
+      data-throttle="0.8">
+		<em>Loading...</em>
+    </div>
+  </div>
+</div>
+
+<div id="design">
+  <div id="div_head">
+    <p id="txt_title">Design and Development</p>
+    <p id="txt_content">html, css, javascript, php, c++</br>verymanley.com | foxbyte.io</br></br></p>
+  </div>
+</div>
+<div class="parallax_design">
+  <div id="design_container">
+    <div id="design_a_container">
+      <p id="design_a_txt_c">Design by:</p>
+      <p id="design_a_txt_a">Joshua Manley</p>
+      <p id="design_a_txt_b">verymanley.com</p>
+    </div>
+    <div id="head_logo">
+      <img id="head_logo_img" src="https://raw.githubusercontent.com/foxbytellc/foxbyte.temp/master/foxhead01.png" alt="Portrait">
+    </div>
+    <div id="design_b_container">
+      <p id="design_b_txt_c">Block Chain Solutions</p>
+      <p id="design_b_txt_a">FoxByte LLC</p>
+      <p id="design_b_txt_b">foxbyte.io</p>
+    </div>
+  </div>
+</div>
+
+<div id="contact">
+  <div id="contact_head">
+    <p id="txt_title">Joshua Manley</p>
+    <img id="contact_img" src="https://foxbytellc.github.io/cover01.png" alt="Portrait">
+    <div id="social_container">
+      <a id="social_linkedin" href="https://www.linkedin.com/in/joshua-manley"></a>
+      <a id="social_googleplus" href="https://plus.google.com/100628448311144760583"></a>
+      <a id="social_twitter" href="https://twitter.com/verymanley"></a>
+      <a id="social_email" href="mailto:verymanley@protonmail.com"></a>
+    </div>
+    <div id="email_container">
+      <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+        <input id="email_box" type="text" name="mail" placeholder="email">
+		<input id="email_send" type="submit" value="Send">
+      </form>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
