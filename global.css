@@ -241,6 +241,13 @@ body, html
   margin-top: 110px;
   box-shadow: 0px 2px 20px #000000;
   border-radius: 8px;
+  transition: .2s ease;
+}
+
+#works_content:hover
+{
+
+  background-color: #232729;
 }
 
 #works_content_a
@@ -253,17 +260,13 @@ body, html
   background-color: #282b2d;
   opacity: 2;
   border: 1px solid #266fd2;
-  transition: .5s ease;
+  transition: .8s ease;
   overflow: hidden;
 }
 
 #works_content_a:hover
 {
-  background-color: #232729;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  border-top: 1px solid #266fd2;
-
+  box-shadow: 0px 2px 10px #000000;
 }
 
 #works_tab
@@ -285,6 +288,11 @@ body, html
   height: 200px;
   transition: .2s ease;
   align-content: center;
+}
+
+#works_img:hover
+{
+  opacity: .6
 }
 
 /*---------works end------------*/
