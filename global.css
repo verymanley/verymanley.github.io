@@ -647,6 +647,19 @@ body, html
   backface-visibility: hidden;
 }
 
+#txt_github
+{
+  font-size: 14px;
+  position: relative;
+  text-align: left;
+}
+
+#txt_github:link, :visited
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
 /*---------design end------------*/
 
 /*---------contact begin------------*/
