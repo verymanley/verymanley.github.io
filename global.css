@@ -224,6 +224,12 @@ body, html
   transition: .2s ease;
 }
 
+#works:hover #txt_title
+{
+  color: #232729;
+  background-color: #266fd2;
+}
+
 #works_content
 {
   position: relative;
@@ -246,7 +252,6 @@ body, html
 
 #works_content:hover
 {
-
   background-color: #232729;
 }
 
