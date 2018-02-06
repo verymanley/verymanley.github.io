@@ -613,7 +613,7 @@ body, html
 
 #design_b_txt_a
 {
-  width: 250px;
+  width: 280px;
   font-size: 40px;
   background-color: #282b2d;
   transition: .2s ease;
@@ -623,7 +623,7 @@ body, html
 #design_b_txt_b
 {
   font-size: 20px;
-  width: 106px;
+  width: 190px;
   background-color: #282b2d;
   transition: .2s ease;
   border-left: 1px solid #f1a91f;
@@ -632,7 +632,7 @@ body, html
 #design_b_txt_c
 {
   font-size: 10px;
-  width: 120px;
+  width: 110px;
   background-color: #282b2d;
   transition: .2s ease;
   border-left: 1px solid #f1a91f;
