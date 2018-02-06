@@ -556,46 +556,9 @@ body, html
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-left: 40px;
+  margin-left: 34px;
   color: #266fd2;
-  border-left: 4px solid #266fd2;
-}
-
-#design_a_txt_a
-{
-  width: 300px;
-  font-size: 40px;
-  background-color: #282b2d;
-  transition: .2s ease;
-  border-left: 1px solid #266fd2;
-}
-
-#design_a_txt_b
-{
-  font-size: 20px;
-  width: 170px;
-  background-color: #282b2d;
-  transition: .2s ease;
-  border-left: 1px solid #266fd2;
-}
-
-#design_a_txt_c
-{
-  font-size: 10px;
-  width: 70px;
-  background-color: #282b2d;
-  transition: .2s ease;
-  border-left: 1px solid #266fd2;
-}
-
-#design_a_txt_a:hover, #design_a_txt_b:hover, #design_a_txt_c:hover
-{
-  color: #282b2d;
-  background: #266fd2;
-  padding-left : 10px;
-  margin-right: -10px;
-  transition: .2s ease;
-  border-left: 1px solid #282b2d;
+  border-left: 4px solid #F0FFF0;
 }
 
 #design_b_container
@@ -609,6 +572,45 @@ body, html
   margin-left: 60px;
   color: #f1a91f;
   border-left: 4px solid #f1a91f;
+}
+
+#design_a_txt_a
+{
+  width: 364px;
+  font-size: 39px;
+  background-color: #282b2d;
+  color: #F0FFF0;
+  transition: .2s ease;
+  border-left: 1px solid #F0FFF0;
+}
+
+#design_a_txt_b
+{
+  font-size: 20px;
+  width: 228px;
+  background-color: #282b2d;
+  color: #F0FFF0;
+  transition: .2s ease;
+  border-left: 1px solid #F0FFF0;
+}
+
+#design_a_txt_c
+{
+  font-size: 10px;
+  width: 90px;
+  background-color: #282b2d;
+  color: #F0FFF0;
+  transition: .2s ease;
+  border-left: 1px solid #F0FFF0;
+}
+
+#design_a_txt_a:hover, #design_a_txt_b:hover, #design_a_txt_c:hover
+{
+  color: #282b2d;
+  background: #F0FFF0;
+  padding-left : 10px;
+  transition: .2s ease;
+  border-left: 1px solid #282b2d;
 }
 
 #design_b_txt_a
@@ -643,6 +645,7 @@ body, html
   color: #282b2d;
   background: #f1a91f;
   padding-left : 10px;
+  margin-right: -10px;
   transition: .2s ease;
   border-left: 1px solid #282b2d;
 }
@@ -654,7 +657,6 @@ body, html
   height: 40px;
   width: 40px;
   padding-top: 53px;
-  margin-left: 60px;
   opacity: 2;
   text-align: center;
   font-size: 16px;
