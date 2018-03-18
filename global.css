@@ -615,7 +615,7 @@ body, html
 
 #design_b_txt_a
 {
-  width: 280px;
+  width: 250px;
   font-size: 40px;
   background-color: #282b2d;
   transition: .2s ease;
@@ -625,7 +625,7 @@ body, html
 #design_b_txt_b
 {
   font-size: 20px;
-  width: 190px;
+  width: 150px;
   background-color: #282b2d;
   transition: .2s ease;
   border-left: 1px solid #f1a91f;
