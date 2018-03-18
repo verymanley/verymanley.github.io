@@ -291,7 +291,6 @@ body, html
 #works_img
 {
   height: 200px;
-  transition: .2s ease;
   align-content: center;
 }
 
