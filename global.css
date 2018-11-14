@@ -136,7 +136,7 @@ body, html
 
 .parallax_intro
 {
-  background-image: url("https://verymanley.github.io/background03.jpg");
+  background-image: url("https://verymanley.github.io/background01.jpg");
   height: 100%;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -305,7 +305,7 @@ body, html
 
 .parallax_mining
 {
-  background-image: url("https://verymanley.github.io/background03.jpg");
+  background-image: url("https://verymanley.github.io/background01.jpg");
   height: 600px;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -351,7 +351,7 @@ body, html
 
 #mining_a
 {
-  background-image: url("https://verymanley.github.io/mining01.jpg");
+  background-image: url("https://verymanley.github.io/mining03.jpg");
   background-size: cover;
   position: relative;
   float: left;
