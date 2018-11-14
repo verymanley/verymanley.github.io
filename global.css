@@ -136,7 +136,7 @@ body, html
 
 .parallax_intro
 {
-  background-image: url("https://github.com/verymanley/verymanley.github.io/background03.jpg");
+  background-image: url("https://verymanley.github.io/background03.jpg");
   height: 100%;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -204,7 +204,7 @@ body, html
 
 .parallax_works
 {
-  background-image: url("https://github.com/verymanley/verymanley.github.io/background02.jpg");
+  background-image: url("https://verymanley.github.io/background02.jpg");
   height: 500px;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -305,7 +305,7 @@ body, html
 
 .parallax_mining
 {
-  background-image: url("https://github.com/verymanley/verymanley.github.io/background03.jpg");
+  background-image: url("https://verymanley.github.io/background03.jpg");
   height: 600px;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -351,7 +351,7 @@ body, html
 
 #mining_a
 {
-  background-image: url("https://github.com/verymanley/verymanley.github.io/mining01");
+  background-image: url("https://verymanley.github.io/mining01.jpg");
   background-size: cover;
   position: relative;
   float: left;
@@ -371,7 +371,7 @@ body, html
 
 #mining_b
 {
-  background-image: url("https://github.com/verymanley/verymanley.github.io/mining02.png");
+  background-image: url("https://verymanley.github.io/mining02.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -504,7 +504,7 @@ body, html
 
 .parallax_design
 {
-  background-image: url("https://github.com/verymanley/verymanley.github.io/background02.jpg");
+  background-image: url("https://verymanley.github.io/background02.jpg");
   height: 400px;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -801,7 +801,7 @@ body, html
 
 #social_linkedin
 {
-  background-image: url("https://github.com/verymanley/verymanley.github.io/linkedin.png");
+  background-image: url("https://verymanley.github.io/linkedin.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -815,7 +815,7 @@ body, html
 
 #social_twitter
 {
-  background-image: url("https://github.com/verymanley/verymanley.github.io/twitter.png");
+  background-image: url("https://verymanley.github.io/twitter.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -829,7 +829,7 @@ body, html
 
 #social_googleplus
 {
-  background-image: url("https://github.com/verymanley/verymanley.github.io/googleplus.png");
+  background-image: url("https://verymanley.github.io/googleplus.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -843,7 +843,7 @@ body, html
 
 #social_email
 {
-  background-image: url("https://github.com/verymanley/verymanley.github.io/email.png");
+  background-image: url("https://verymanley.github.io/email.png");
   background-size: cover;
   position: relative;
   float: left;
