@@ -16,7 +16,6 @@ body, html {
   text-decoration: none;
   scroll-behavior: smooth;
   overflow: hidden;
-  margin: 0;
   perspective: 1px;
   transform-style: preserve-3d;
   overflow-x: hidden;
