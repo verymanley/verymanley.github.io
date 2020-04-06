@@ -377,9 +377,9 @@ h4:hover
 /*---------solutions end------------*/
 
 
-/*---------solutions_a begin------------*/
+/*---------main design begin------------*/
 
-.solutions_a_container
+.design_a_container
 {
   background-image: url("https://foxbytellc.github.io/bgimg03.jpg");
   height: auto;
@@ -393,61 +393,7 @@ h4:hover
   animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
 }
 
-.solutions_a_head
-{
-  border-bottom: 1px solid #266fd2;
-  padding: 20px;
-  background-color: #232729;
-  overflow: hidden;
-}
-
-/* Clear floats after the columns */
-.solutions_a_head:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column_a_head_a
-{
-  float: left;
-  width: 50%;
-  text-align: left;
-  padding: 20px;
-  background-color: #232729;
-}
-
-.column_a_head_b
-{
-  float: right;
-  width: 50%;
-  text-align: right;
-  padding: 20px;
-  padding-left: 10%;
-  background-color: #232729;
-  font-size: 14px;
-  overflow: hidden;
-}
-
-.image_container
-{
-  width: 50%;
-}
-
-@media screen and (max-width: 600px)
-{
-  .column_a_head_a, .column_a_head_b
-  {
-    width: 100%;
-  }
-}
-
-/*---------solutions_a end------------*/
-
-
-/*---------solutions_b begin------------*/
-
-.solutions_b_container
+.design_b_container
 {
   background-image: url("https://foxbytellc.github.io/bgimg02.jpg");
   height: auto;
@@ -461,7 +407,7 @@ h4:hover
   animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
 }
 
-.solutions_b_head
+.design_head
 {
   border-bottom: 1px solid #266fd2;
   padding: 20px;
@@ -470,42 +416,46 @@ h4:hover
 }
 
 /* Clear floats after the columns */
-.solutions_b_head:after {
+.design_head:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.column_b_head_a
+.column_left
+{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #232729;
+  overflow: hidden;
+}
+
+.column_right
 {
   float: right;
   width: 50%;
   text-align: right;
   padding: 20px;
   background-color: #232729;
-}
-
-.column_b_head_b
-{
-  float: left;
-  width: 50%;
-  text-align: left;
-  padding: 20px;
-  padding-left: 10%;
-  background-color: #232729;
-  font-size: 14px;
   overflow: hidden;
 }
 
+.image_container
+{
+  width: 50%;
+}
+
+/*---------needs update------------*/
 @media screen and (max-width: 600px)
 {
-  .column_b_head_a, .column_b_head_b
+  .column_a_head_a, .column_a_head_b
   {
     width: 100%;
   }
 }
 
-/*---------solutions_b end------------*/
-
+/*---------main design end------------*/
 
 /*--designed and created by Joshua Manley--*/
