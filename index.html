@@ -13,6 +13,119 @@
 </head>
 <body>
 
+  <div class="intro_container">
+    <div id="intro_container">
+      <p id="intro_txt_c">Design by:</p>
+      <p id="intro_txt_a">Joshua Manley</p>
+      <p id="intro_txt_b">verymanley.com</p>
+    </div>
+  </div>
+  <div class="arrow_animate">
+    <a href="#solutions">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+  </div>
+
+  <div id="solutions" class="solutions_container">
+    <div class="solutions_head">
+      <div class="column_head_a">
+        <h1>Joshua Manley</h1>
+      </div>
+      <div class="column_head_b">
+        <p>An experienced Programmer and Entrepreneur on the cutting edge of new media and technology. As his passions define his skills; computer programming, ethical hacking, electrical engineering and now the digital economy.</p>
+      </div>
+    </div>
+    <div class="solutions_body">
+      <div class="solutions_nav_a">
+        <a class="links" href="#Lawn">
+          <img src="icon01.png">
+          <h4 class="solutions_nav_txt">Information Technology</h4>
+        </a>
+        <div class="solutions_overlay">
+          <img src="icon01hover.png">
+        </div>
+      </div>
+      <div class="solutions_nav_a">
+        <a class="links" href="#Landscaping">
+          <img src="icon02.png">
+          <h4 class="solutions_nav_txt">Electrical Engineering</h4>
+        </a>
+        <div class="solutions_overlay">
+          <img src="icon02hover.png">
+        </div>
+      </div>
+      <div class="solutions_nav_a">
+        <a class="links" href="#Hardscaping">
+          <img src="icon03.png">
+          <h4 class="solutions_nav_txt">Mechanical Engineering</h4>
+        </a>
+        <div class="solutions_overlay">
+          <img src="icon03hover.png">
+        </div>
+      </div>
+      <div class="solutions_nav_a">
+        <a class="links" href="#Design">
+          <img src="icon04.png">
+          <h4 class="solutions_nav_txt">Digital Economy</h4>
+        </a>
+        <div class="solutions_overlay">
+          <img src="icon04hover.png">
+        </div>
+      </div>
+    </div>
+    <div id="navbar">
+      <div class="inner">
+        <a href="#Lawn">Lawn</a>
+        <a href="#Landscaping">Landscaping</a>
+        <a href="#Hardscaping">Hardscaping</a>
+        <a href="#Design">Design</a>
+        <a href="#Contact">Contact</a>
+        <a href="https://www.manleylawn.com/payment#options" target="_self">Payment</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="Lawn" class="solutions_a_container">
+    <div class="solutions_a_head">
+      <div class="column_a_head_a">
+        <h2>Information Technology</h2>
+        <p class="p_margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="column_a_head_b">
+        <div class="image_container">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="Landscaping" class="solutions_b_container">
+    <div class="solutions_b_head">
+      <div class="column_b_head_a">
+        <h2>Electrical Engineering</h2>
+        <p class="p_margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</br></br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+      </div>
+      <div class="column_b_head_b">
+        <div class="image_container">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function scrollFunction() {
+      if (window.pageYOffset >= sticky) {navbar.classList.add("sticky")}
+      else {navbar.classList.remove("sticky");}
+  }
+
+</script>
 
 </body>
 </html>
