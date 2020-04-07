@@ -345,6 +345,7 @@ h4:hover
   width: 100%;
   height: 0;
   transition: .4s ease;
+  opacity: 60%;
 }
 
 .solutions_nav_a:hover .solutions_overlay
@@ -364,6 +365,7 @@ h4:hover
   position: relative;
   z-index: 100;
   transition: .4s ease;
+  padding-top: 60px;
 }
 
 .solutions_nav_txt:link, :visited
