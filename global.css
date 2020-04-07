@@ -458,4 +458,55 @@ h4:hover
 
 /*---------main design end------------*/
 
+/*---------footer begin------------*/
+
+.footer
+{
+  overflow: auto;
+  padding: 5%;
+  background-color: #232729;
+  text-align: center;
+}
+
+.footer_p
+{
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.contact_form
+{
+  margin-bottom: 5%;
+}
+
+/*---------footer end------------*/
+
+/*---------social begin------------*/
+
+.social
+{
+  border-top: 4px solid #282b2d;
+  padding-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.social_body
+{
+  position: relative;
+}
+
+/*---------needs update------------*/
+@media screen and (max-width: 600px)
+{
+  .social
+  {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+/*---------social end------------*/
+
 /*--designed and created by Joshua Manley--*/
