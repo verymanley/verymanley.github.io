@@ -28,6 +28,13 @@ h2
 {
   padding-bottom: 20px;
   border-bottom: 4px solid #282b2d;
+  transition: .4s ease;
+}
+
+h2:hover
+{
+  color: #266fd2;
+  transition: .4s ease;
 }
 
 h4
@@ -37,7 +44,7 @@ h4
 
 h4:hover
 {
-  color: #f1a91f;
+  color: #266fd2;
   transition: .4s ease;
 }
 
@@ -447,10 +454,9 @@ h4:hover
   width: 50%;
 }
 
-/*---------needs update------------*/
 @media screen and (max-width: 600px)
 {
-  .column_a_head_a, .column_a_head_b
+  .column_left, .column_right
   {
     width: 100%;
   }
@@ -497,7 +503,6 @@ h4:hover
   position: relative;
 }
 
-/*---------needs update------------*/
 @media screen and (max-width: 600px)
 {
   .social
