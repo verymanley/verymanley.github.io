@@ -297,35 +297,42 @@ h4:hover
   background-color: #232729;
 }
 
-.column_head_a
-{
-  float: left;
-  width: 50%;
-  text-align: left;
-  padding: 20px;
-  background-color: #232729;
-}
-
-.column_head_b
-{
-  float: left;
-  width: 50%;
-  text-align: center;
-  padding: 20px;
-  background-color: #232729;
-}
-
 .solutions_nav_a
 {
+  background-attachment: local;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #266fd2;
+  background-blend-mode: multiply;
   position: relative;
   float: left;
   width: 25%;
   text-align: center;
   padding: 20px;
-  background-color: #282b2d;
   transition: .4s ease;
   border: 1px solid #282b2d;
   animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+
+#solutions_img_a
+{
+  background-image: url("test01.jpg");
+}
+
+#solutions_img_b
+{
+  background-image: url("test02.jpg");
+}
+
+#solutions_img_c
+{
+  background-image: url("test03.jpg");
+}
+
+#solutions_img_d
+{
+  background-image: url("test04.jpg");
 }
 
 .solutions_overlay
