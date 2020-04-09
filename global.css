@@ -367,7 +367,10 @@ h4:hover
   position: relative;
   z-index: 100;
   transition: .4s ease;
-  padding-top: 60px;
+  margin-top: 60px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .solutions_nav_txt:link, :visited
@@ -375,11 +378,11 @@ h4:hover
   text-decoration: none;
 }
 
-
 .solutions_nav_a:hover .solutions_nav_txt
 {
   height: 100%;
   color: #266fd2;
+  background-color: #282b2d;
   transition: .4s ease;
 }
 
