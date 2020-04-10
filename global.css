@@ -469,12 +469,40 @@ h4:hover
   width: 50%;
 }
 
-#about_txt_container
+.about_txt_container
 {
   position: absolute;
   height: auto;
   left: 50%;
   margin-top: -20%;
+}
+
+.display_middle
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%)
+}
+
+.large_center
+{
+  text-align: center;
+  font-family: 'Geo', sans-serif;
+  font-size: 8vw;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #266fd2;
+  text-shadow: 2px 2px #282b2d;
+}
+
+.border
+{
+  border-top: 1px solid #266fd2;
+  border-bottom: 2px solid #282b2d;
+  margin-left: 38vw;
+  margin-right: 38vw;
 }
 
 @media screen and (max-width: 600px)
@@ -489,15 +517,6 @@ h4:hover
 
 /*---------systems begin------------*/
 
-#display_middle
-{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  -ms-transform:translate(-50%,-50%)
-}
-
 #animate_top
 {
   width: 20vw;
@@ -506,14 +525,6 @@ h4:hover
   position: relative;
   margin-left: 40vw;
   margin-right: 40vw;
-}
-
-#border
-{
-  border-top: 1px solid #266fd2;
-  border-bottom: 2px solid #282b2d;
-  margin-left: 38vw;
-  margin-right: 38vw;
 }
 
 #large_center
@@ -656,7 +667,6 @@ h4:hover
 }
 
 /*---------systems end------------*/
-
 
 /*---------footer begin------------*/
 
