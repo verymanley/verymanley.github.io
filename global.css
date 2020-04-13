@@ -572,16 +572,6 @@ h4:hover
   margin-right: 10vw;
 }
 
-.display_middle
-{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  -ms-transform:translate(-50%,-50%);
-  border: 1px solid #266fd2;
-}
-
 #large_center
 {
   text-align: center;
