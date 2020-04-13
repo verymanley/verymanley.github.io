@@ -258,18 +258,12 @@ h4:hover
     width: 100%;
   }
 
-  .logo_right
+  #intro_container
   {
-    transform: scale(.7);
     padding-top: 40px;
     padding-bottom: 40px;
-  }
-
-  #head_logo_img
-  {
     transform: scale(.8);
     float: left;
-    opacity: .8;
     margin-left: 10%;
     margin-top: 20%;
   }
@@ -391,7 +385,7 @@ h4:hover
 
 @media screen and (max-width: 600px)
 {
-  .column_head_a, .column_head_b, .solutions_nav_a
+  .solutions_nav_a
   {
     width: 100%;
   }
