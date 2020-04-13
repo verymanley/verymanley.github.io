@@ -253,19 +253,12 @@ h4:hover
 /*---------needs update------------*/
 @media screen and (max-width: 600px)
 {
-  .logo_left, .logo_right
-  {
-    width: 100%;
-  }
-
   #intro_container
   {
     padding-top: 40px;
     padding-bottom: 40px;
     transform: scale(.8);
     float: left;
-    margin-left: 10%;
-    margin-top: 20%;
   }
 }
 
