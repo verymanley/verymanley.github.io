@@ -357,7 +357,11 @@ h4:hover
   margin-right: auto;
   padding: 8px;
   border-bottom: 1px solid #597387;
+}
 
+.solutions_nav_a:hover .solutions_nav_txt:hover
+{
+  box-shadow: none;
 }
 
 .solutions_nav_txt:link, :visited
@@ -470,7 +474,6 @@ h4:hover
   left:50%;
   transform:translate(-50%,-50%);
   -ms-transform:translate(-50%,-50%);
-  border: 1px solid #266fd2;
 }
 
 .large_center
@@ -487,8 +490,8 @@ h4:hover
 {
   border-top: 1px solid #266fd2;
   border-bottom: 2px solid #282b2d;
-  margin-left: 38vw;
-  margin-right: 38vw;
+  margin-left: 28vw;
+  margin-right: 28vw;
 }
 
 .layeredimage_container
@@ -568,8 +571,8 @@ h4:hover
   font-size:64px;
   margin-bottom: 40px;
   position: relative;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
 }
 
 #large_center
