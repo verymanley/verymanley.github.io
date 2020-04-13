@@ -397,7 +397,7 @@ h4:hover
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 2px 20px #000000;
-  padding-top: 40%;
+  padding-top: 80vh;
   animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
 }
 
@@ -411,7 +411,7 @@ h4:hover
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 2px 20px #000000;
-  padding-top: 40%;
+  padding-top: 80vh;
   animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
 }
 
@@ -453,11 +453,6 @@ h4:hover
 .column_img
 {
   padding-left: 10%;
-}
-
-.image_container
-{
-  width: 50%;
 }
 
 .about_txt_container
