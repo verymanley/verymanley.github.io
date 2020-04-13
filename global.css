@@ -130,7 +130,6 @@ h4:hover
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0px 2px 20px #000000;
   padding-top: 5%;
   animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
 }
