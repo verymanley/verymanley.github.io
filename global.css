@@ -469,7 +469,7 @@ h4:hover
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
-  -ms-transform:translate(-50%,-50%)
+  -ms-transform:translate(-50%,-50%);
 }
 
 .large_center
@@ -478,7 +478,6 @@ h4:hover
   font-family: 'Geo', sans-serif;
   font-size: 8vw;
   font-weight: bold;
-  margin-top: 20px;
   color: #266fd2;
   text-shadow: 2px 2px #282b2d;
 }
@@ -545,6 +544,16 @@ h4:hover
   .layeredimage_container
   {
     transform: rotate(-30deg) skew(25deg) scale(.6);
+  }
+
+  .display_middle
+  {
+    padding-bottom: 40vh;
+  }
+
+  .large_center
+  {
+    font-size: 16vw;
   }
 }
 
