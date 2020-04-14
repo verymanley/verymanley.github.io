@@ -718,8 +718,19 @@ h4:hover
 
 /*---------footer begin------------*/
 
+.contact_margin
+{
+  margin-bottom: 60vh;
+  border-bottom: 1px solid #597387;
+}
+
 .footer
 {
+  position: fixed;
+  height: 60vh;
+  width: 100%;
+  z-index: -4;
+  bottom: 0;
   overflow: auto;
   padding: 5%;
   background-color: #232729;
@@ -733,11 +744,6 @@ h4:hover
   margin-right: 25%;
 }
 
-.contact_form
-{
-  margin-bottom: 5%;
-}
-
 /*---------footer end------------*/
 
 /*---------social begin------------*/
@@ -745,7 +751,7 @@ h4:hover
 .social
 {
   border-top: 4px solid #282b2d;
-  padding-top: 2%;
+  margin-top: 16%;
   margin-left: 20%;
   margin-right: 20%;
 }
