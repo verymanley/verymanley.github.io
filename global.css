@@ -586,6 +586,12 @@ h4:hover
   text-shadow: 2px 2px #282b2d;
 }
 
+.systems_head_space
+{
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
 .systems_left_space
 {
   padding-left: 100px;
@@ -712,6 +718,30 @@ h4:hover
   height: 100px;
   transition: .5s ease;
   backface-visibility: hidden;
+}
+
+@media screen and (max-width: 600px)
+{
+  #design_a_container, #design_b_container, #head_logo_img
+  {
+    transform: scale(.8);
+  }
+
+  .systems_head_space
+  {
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+  }
+
+  .systems_left_space
+  {
+    padding-left: 40px;
+  }
+
+  #head_logo_img
+  {
+    margin-top: 50px;
+  }
 }
 
 /*---------systems end------------*/
