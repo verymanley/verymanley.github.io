@@ -742,6 +742,16 @@ h4:hover
   {
     margin-top: 50px;
   }
+
+  #animate_top
+  {
+    width: 40vw;
+  }
+
+  #large_center
+  {
+    font-size: 10vw;
+  }
 }
 
 /*---------systems end------------*/
