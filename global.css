@@ -809,25 +809,34 @@ h4:hover
   padding-bottom: 10vh;
 }
 
-ul {
+ul
+{
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
 }
 
-ul li {
+ul li
+{
   margin: 0 40px;
 }
 
-ul li a .fa {
+ul li a .fa
+{
   font-size: 40px;
   color: #555;
   line-height: 80px;
   transition: 0.5s;
 }
 
-ul li a {
+ul li a:visited
+{
+  background: #fff;
+}
+
+ul li a
+{
   position: relative;
   display: block;
   width: 80px;
@@ -839,7 +848,8 @@ ul li a {
   box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
 }
 
-ul li a::before {
+ul li a::before
+{
   content: "";
   position: absolute;
   top: 10px;
@@ -851,7 +861,8 @@ ul li a::before {
   transform: rotate(0deg) skewY(-45deg);
 }
 
-ul li a::after {
+ul li a::after
+{
   content: "";
   position: absolute;
   bottom: -20px;
@@ -863,12 +874,14 @@ ul li a::after {
   transform: rotate(0deg) skewX(-45deg);
 }
 
-ul li a:hover {
+ul li a:hover
+{
   transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
   box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
 }
 
-ul li:hover .fa {
+ul li:hover .fa
+{
   color: #fff;
 }
 
@@ -920,29 +933,26 @@ ul li:hover:nth-child(4) a::after {
   background-color: #212121;
 }
 
-@media screen and (max-width: 600px)
+@media (max-width: 600px)
 {
-  .social
+  ul
   {
-    margin-left: 0%;
-    margin-right: 0%;
-  }
-}
-
-@media (max-width: 600px) {
-  ul {
     transform: scale(0.6);
   }
 }
 
-@media (min-width: 601px) and (max-width: 700px) {
-  ul {
+@media (min-width: 601px) and (max-width: 700px)
+{
+  ul
+  {
     transform: scale(0.7);
   }
 }
 
-@media (min-width: 701px) and (max-width: 800px) {
-  ul {
+@media (min-width: 701px) and (max-width: 800px)
+{
+  ul
+  {
     transform: scale(0.8);
   }
 }
