@@ -125,8 +125,6 @@ h4:hover
 {
   background-image: url("https://foxbytellc.github.io/bgimg02.jpg");
   height: 110%;
-  /* the parallax scrolling effect */
-  background-attachment: ;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
