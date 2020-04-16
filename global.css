@@ -123,7 +123,7 @@ h4:hover
 
 .intro_container
 {
-  background-image: url("https://foxbytellc.github.io/bgimg02.jpg");
+  background-image: url("https://verymanley.github.io/bgimg01.jpg");
   height: 110%;
   background-position: top;
   background-repeat: no-repeat;
@@ -392,7 +392,7 @@ h4:hover
 
 .design_a_container
 {
-  background-image: url("https://foxbytellc.github.io/bgimg03.jpg");
+  background-image: url("https://verymanley.github.io/bgimg02.jpg");
   height: auto;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -407,7 +407,7 @@ h4:hover
 
 .design_b_container
 {
-  background-image: url("https://foxbytellc.github.io/bgimg02.jpg");
+  background-image: url("https://verymanley.github.io/bgimg01.jpg");
   height: auto;
   /* the parallax scrolling effect */
   background-attachment: fixed;
