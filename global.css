@@ -24,8 +24,23 @@ body, html
   margin-top: 5%;
 }
 
+h1
+{
+  color: #597387;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #282b2d;
+  transition: .4s ease;
+}
+
+h1:hover
+{
+  color: #266fd2;
+  transition: .4s ease;
+}
+
 h2
 {
+  color: #597387;
   padding-bottom: 20px;
   border-bottom: 4px solid #282b2d;
   transition: .4s ease;
