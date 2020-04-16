@@ -825,14 +825,14 @@ ul li
 ul li a .fa
 {
   font-size: 40px;
-  color: #555;
+  color: #282b2d;
   line-height: 80px;
   transition: 0.5s;
 }
 
 ul li a:visited
 {
-  background: #fff;
+  background: #597387;
 }
 
 ul li a
@@ -841,7 +841,7 @@ ul li a
   display: block;
   width: 80px;
   height: 80px;
-  background: #fff;
+  background: #597387;
   text-align: center;
   transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
   transition: 0.5s;
@@ -856,7 +856,7 @@ ul li a::before
   left: -20px;
   height: 100%;
   width: 20px;
-  background: #b2b2b2;
+  background: #3e5160;
   transition: 0.5s;
   transform: rotate(0deg) skewY(-45deg);
 }
@@ -869,7 +869,7 @@ ul li a::after
   left: -10px;
   height: 20px;
   width: 100%;
-  background: #e5e5e5;
+  background: #68869c;
   transition: 0.5s;
   transform: rotate(0deg) skewX(-45deg);
 }
@@ -882,7 +882,7 @@ ul li a:hover
 
 ul li:hover .fa
 {
-  color: #fff;
+  color: #597387;
 }
 
 ul li:hover:nth-child(1) a {
