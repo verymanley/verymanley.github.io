@@ -489,7 +489,7 @@ h4:hover
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  -ms-transform:translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
 }
 
 .large_center
