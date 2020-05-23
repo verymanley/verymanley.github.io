@@ -444,7 +444,8 @@ h4:hover
 }
 
 /* Clear floats after the columns */
-.design_head:after {
+.design_head:after
+{
   content: "";
   display: table;
   clear: both;
