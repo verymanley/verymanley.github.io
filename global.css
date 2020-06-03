@@ -95,7 +95,8 @@ h4:hover
   z-index: 4;
 }
 
-.sticky {
+.sticky
+{
   position: fixed;
   top: 0;
   height: 2.5em;
