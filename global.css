@@ -113,7 +113,8 @@ h4:hover
   opacity: 1;
 }
 
-.inner {
+.inner
+{
   position: absolute;
   z-index: -2;
   text-decoration: none;
