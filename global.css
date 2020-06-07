@@ -1000,7 +1000,8 @@ ul li:hover:nth-child(4) a::before {
   background-color: #1A1A1A;
 }
 
-ul li:hover:nth-child(4) a::after {
+ul li:hover:nth-child(4) a::after
+{
   background-color: #212121;
 }
 
