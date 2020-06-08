@@ -996,7 +996,8 @@ ul li:hover:nth-child(4) a {
   background-color: #2E2E2E;
 }
 
-ul li:hover:nth-child(4) a::before {
+ul li:hover:nth-child(4) a::before
+{
   background-color: #1A1A1A;
 }
 
