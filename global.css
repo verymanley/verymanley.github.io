@@ -956,39 +956,48 @@ ul li:hover .fa
   color: #597387;
 }
 
-ul li:hover:nth-child(1) a {
+ul li:hover:nth-child(1) a
+{
   background-color: #55acee;
 }
 
-ul li:hover:nth-child(1) a::before {
+ul li:hover:nth-child(1) a::before
+{
   background-color: #4489be;
 }
 
-ul li:hover:nth-child(1) a::after {
+ul li:hover:nth-child(1) a::after
+{
   background-color: #66b4ef;
 }
 
-ul li:hover:nth-child(2) a {
+ul li:hover:nth-child(2) a
+{
   background-color: #e4405f;
 }
 
-ul li:hover:nth-child(2) a::before {
+ul li:hover:nth-child(2) a::before
+{
   background-color: #b6334c;
 }
 
-ul li:hover:nth-child(2) a::after {
+ul li:hover:nth-child(2) a::after
+{
   background-color: #e6536f;
 }
 
-ul li:hover:nth-child(3) a {
+ul li:hover:nth-child(3) a
+{
   background-color: #0077b5;
 }
 
-ul li:hover:nth-child(3) a::before {
+ul li:hover:nth-child(3) a::before
+{
   background-color: #005f90;
 }
 
-ul li:hover:nth-child(3) a::after {
+ul li:hover:nth-child(3) a::after
+{
   background-color: #1984bc;
 }
 
