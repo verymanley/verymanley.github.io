@@ -120,7 +120,8 @@ h4:hover
   text-decoration: none;
 }
 
-.inner a {
+.inner a
+{
   float: left;
   display: block;
   color: #266fd2;
@@ -132,7 +133,8 @@ h4:hover
   transition: 1s ease;
 }
 
-.inner a:hover {
+.inner a:hover
+{
   background-color: #597387;
   color: #282b2d;
   transition: .4s ease;
