@@ -8,6 +8,7 @@ window.addEventListener("scroll", function()
   })
 })
 
+
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
