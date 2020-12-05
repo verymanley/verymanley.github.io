@@ -252,6 +252,7 @@ h4:hover
 .contact_margin
 {
   margin-bottom: 60vh;
+  border-top: 1px solid #597387;
   border-bottom: 1px solid #597387;
 }
 
