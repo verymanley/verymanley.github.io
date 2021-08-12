@@ -750,6 +750,7 @@ h4:hover
   background-color: #282b2d;
   transition: .2s ease;
   border-left: 1px solid #f1a91f;
+  text-decoration: none;
 }
 
 #design_b_txt_c
@@ -770,6 +771,30 @@ h4:hover
   margin-right: -10px;
   transition: .2s ease;
   border-left: 1px solid #282b2d;
+}
+
+.manleylawn_links
+{
+  text-decoration: none;
+  color: #009933;
+}
+
+.manleylawn_links:hover
+{
+  color: #282b2d;
+  transition: .4s ease;
+}
+
+.foxbyte_links
+{
+  text-decoration: none;
+  color: #f1a91f;
+}
+
+.foxbyte_links:hover
+{
+  color: #282b2d;
+  transition: .4s ease;
 }
 
 #head_logo
