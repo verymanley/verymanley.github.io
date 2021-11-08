@@ -19,6 +19,11 @@ body, html
   scroll-behavior: smooth;
 }
 
+.font_manrope
+{
+  font-family: Manrope
+}
+
 .p_margin
 {
   margin-top: 5%;
