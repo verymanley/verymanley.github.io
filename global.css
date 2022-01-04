@@ -145,6 +145,11 @@ h4:hover
   transition: .4s ease;
 }
 
+.mastodon
+{
+    float: right;
+}
+
 /*---------nav end------------*/
 
 /*---------intro begin------------*/
