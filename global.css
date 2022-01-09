@@ -897,7 +897,6 @@ h4:hover
 
 .social
 {
-  margin-top: 10vh;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -922,14 +921,14 @@ ul
 
 ul li
 {
-  margin: 0 40px;
+  margin: 0 30px;
 }
 
 ul li a .fab
 {
-  font-size: 40px;
+  font-size: 30px;
   color: #282b2d;
-  line-height: 80px;
+  line-height: 60px;
   transition: 0.5s;
 }
 
@@ -942,8 +941,8 @@ ul li a
 {
   position: relative;
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background: #597387;
   text-align: center;
   transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
@@ -1005,45 +1004,60 @@ ul li:hover:nth-child(1) a::after
 
 ul li:hover:nth-child(2) a
 {
-  background-color: #e4405f;
+  background-color: #0077b5;
 }
 
 ul li:hover:nth-child(2) a::before
 {
-  background-color: #b6334c;
+  background-color: #005f90;
 }
 
 ul li:hover:nth-child(2) a::after
 {
-  background-color: #e6536f;
+  background-color: #1984bc;
 }
 
 ul li:hover:nth-child(3) a
 {
-  background-color: #0077b5;
+  background-color: #e4405f;
 }
 
 ul li:hover:nth-child(3) a::before
 {
-  background-color: #005f90;
+  background-color: #b6334c;
 }
 
 ul li:hover:nth-child(3) a::after
 {
-  background-color: #1984bc;
+  background-color: #e6536f;
 }
 
 ul li:hover:nth-child(4) a
 {
-  background-color: #2E2E2E;
+  background-color: #0077b5;
 }
 
 ul li:hover:nth-child(4) a::before
 {
-  background-color: #1A1A1A;
+  background-color: #005f90;
 }
 
 ul li:hover:nth-child(4) a::after
+{
+  background-color: #1984bc;
+}
+
+ul li:hover:nth-child(5) a
+{
+  background-color: #2E2E2E;
+}
+
+ul li:hover:nth-child(5) a::before
+{
+  background-color: #1A1A1A;
+}
+
+ul li:hover:nth-child(5) a::after
 {
   background-color: #212121;
 }
