@@ -891,6 +891,14 @@ h4:hover
   border-top: 4px solid #282b2d;
 }
 
+@media (max-width: 600px)
+{
+  .contact_margin
+  {
+    margin-bottom: 80vh;
+  }
+}
+
 /*---------footer end------------*/
 
 /*---------social begin------------*/
@@ -1092,7 +1100,7 @@ ul li:hover:nth-child(7) a::after
   background-color: #212121;
 }
 
-@media screen and (max-width: 600px)
+@media (max-width: 600px)
 {
   ul
   {
