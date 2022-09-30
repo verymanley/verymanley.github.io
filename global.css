@@ -872,7 +872,7 @@ h4:hover
 .footer
 {
   position: fixed;
-  height: 40%;
+  height: 60vh;
   width: 100%;
   z-index: -10;
   bottom: 0;
