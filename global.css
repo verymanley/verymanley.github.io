@@ -1049,48 +1049,19 @@ ul li:hover:nth-child(4) a::after
 
 ul li:hover:nth-child(5) a
 {
-  background-color: #FFA500;
+  background-color: #2E2E2E;
 }
 
 ul li:hover:nth-child(5) a::before
 {
-  background-color: #ff8c00;
+  background-color: #1A1A1A;
 }
 
 ul li:hover:nth-child(5) a::after
 {
-  background-color: #ffae42 ;
+  background-color: #212121 ;
 }
 
-ul li:hover:nth-child(6) a
-{
-  background-color: #0063dc;
-}
-
-ul li:hover:nth-child(6) a::before
-{
-  background-color: #004fb0;
-}
-
-ul li:hover:nth-child(6) a::after
-{
-  background-color: #147eff;
-}
-
-ul li:hover:nth-child(7) a
-{
-  background-color: #2E2E2E;
-}
-
-ul li:hover:nth-child(7) a::before
-{
-  background-color: #1A1A1A;
-}
-
-ul li:hover:nth-child(7) a::after
-{
-  background-color: #212121;
-}
 
 @media (max-width: 600px)
 {
