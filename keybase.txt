@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/manley
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://verymanley.com
+  * I am manley (https://keybase.io/manley) on keybase.
+  * I have a public key ASDlOlfV-M4qu5IPM7RljbAtqiedbjm2FmBXz97AJnX55wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e571f2036d5e310d40c850672f6941827f9d2b877a740c087e6f39e9c30b44660a",
+      "host": "keybase.io",
+      "kid": "0120e53a57d5f8ce2abb920f33b4658db02daa279d6e39b6166057cfdec02675f9e70a",
+      "uid": "92986e6a7891f4ef97273f0a17c37319",
+      "username": "manley"
+    },
+    "merkle_root": {
+      "ctime": 1639872889,
+      "hash": "4ad7e1662ad3b4ec7c6486b86f1da0493e27ee2b895e3b2542948a3e301fcd8fed141ea11853ed4317dac42e8eec17215b3b9eccd20a40f151f02a42e533d779",
+      "hash_meta": "7bf3ec98cee931227246601e936c2ba6ba5aae7c8ef4f36390cc97ce2ee96c40",
+      "seqno": 21462440
+    },
+    "service": {
+      "entropy": "BEP8g0U7EVufMlM/8qNkFGU/",
+      "hostname": "verymanley.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1639872918,
+  "expire_in": 504576000,
+  "prev": "76e21cd2c1635966a9855da9a446dc1a1b9d2537684f14a5566a15154495f1ec",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5TpX1fjOKruSDzO0ZY2wLaonnW45thZgV8/ewCZ1+ecKp3BheWxvYWTESpcCLsQgduIc0sFjWWaphV2ppEbcGhudJTdoTxSlVmoVFUSV8ezEIATDv1V4zd7CzI9WVeHeUqGjInsgBIHeZH7dGopfaRs/AgHCo3NpZ8RAA8YudIvLI/VkBeGt3a2tsdS04xzhJHUqCsR0V490jHWl1NvVIfFs3S6355/ZG/3AFjlqrbTXw3mvOGkW0pkZDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMqS17flyq7B4CfCt/ZWD8xpG/b4NDUzWp6CFjTNKy3Ro3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/manley
+
+==================================================================
