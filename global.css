@@ -680,8 +680,8 @@ h4:hover
   padding-top: 60px;
   padding-bottom: 60px;
   margin-left: 70px;
-  color: #009933;
-  border-left: 4px solid #009933;
+  color: #597387;
+  border-left: 4px solid #597387;
 }
 
 #design_b_container
@@ -704,33 +704,33 @@ h4:hover
   font-size: 40px;
   background-color: #282b2d;
   transition: .2s ease;
-  border-left: 1px solid #009933;
+  border-left: 1px solid #597387;
 }
 
 #design_a_txt_b
 {
   box-sizing: content-box;
   font-size: 20px;
-  width: 180px;
+  width: 140px;
   background-color: #282b2d;
   transition: .2s ease;
-  border-left: 1px solid #009933;
+  border-left: 1px solid #597387;
 }
 
 #design_a_txt_c
 {
   box-sizing: content-box;
   font-size: 10px;
-  width: 140px;
+  width: 130px;
   background-color: #282b2d;
   transition: .2s ease;
-  border-left: 1px solid #009933;
+  border-left: 1px solid #597387;
 }
 
 #design_a_txt_a:hover, #design_a_txt_b:hover, #design_a_txt_c:hover
 {
   color: #282b2d;
-  background: #009933;
+  background: #597387;
   padding-left : 10px;
   margin-right: -10px;
   transition: .2s ease;
@@ -781,7 +781,7 @@ h4:hover
 .manleylawn_links
 {
   text-decoration: none;
-  color: #009933;
+  color: #597387;
 }
 
 .manleylawn_links:hover
